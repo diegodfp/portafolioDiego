@@ -12,8 +12,8 @@ import Header from "@/components/header";
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TarreDev Landing Page",
-  description: "Landing page made by TarreDev",
+  title: "DiegoPerezDevLab 👨‍💻",
+  description: "Landing page made by Diego Perez",
 };
 
 export default function RootLayout({
