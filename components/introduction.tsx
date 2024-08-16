@@ -27,7 +27,7 @@ const Introduction = () => {
                     </h1>
 
                     <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
-                        Como desarrollador frontend y creador de contenido, me dedico a combinar diseño y funcionalidad para crear experiencias digitales impactantes y accesibles.
+                        Como desarrollador web, me dedico a combinar diseño y funcionalidad para crear experiencias digitales impactantes y accesibles.
                     </p>
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
