@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tsparticles/react": "^3.0.0",
     "framer-motion": "^11.0.3",
     "lucide-react": "^0.323.0",
@@ -16,6 +17,8 @@
     "react": "^18.3.1",
     "react-countup": "^6.5.0",
     "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.2",
+    "react-toastify": "^10.0.5",
     "react-type-animation": "^3.2.0",
     "swiper": "^11.0.6",
     "tsparticles": "^3.2.1"
