@@ -26,9 +26,8 @@ const Introduction = () => {
                         />
                     </h1>
 
-                    <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
-                        Como desarrollador web, me dedico a combinar diseño y funcionalidad para crear experiencias digitales impactantes y accesibles.
-                    </p>
+                    <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8 text-justify">
+                    Como desarrollador web, combino diseño y funcionalidad para crear experiencias digitales impactantes y accesibles. Me enfoco en soluciones innovadoras que cumplen con altos estándares de seguridad, garantizando la confidencialidad, integridad, disponibilidad y autenticidad de la información.                    </p>
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
                         <a href="/projects" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">

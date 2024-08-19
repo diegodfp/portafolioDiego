@@ -13,7 +13,7 @@ import PortfolioBox from "@/components/portfolio-box";
 const PortfolioPage = () => {
 
     return (
-        <main className="flex min-h-screen bg-gradient-cover bg-no-repeat">
+        <div className="flex min-h-screen flex flex-col justify-center h-full  bg-gradient-cover bg-no-repeat">
         <ContainerPage>
             <TransitionPage />
             <AvatarPortfolio />
@@ -28,7 +28,7 @@ const PortfolioPage = () => {
                 </div>
             </div>
         </ContainerPage>
-        </main>
+        </div>
     );
 }
 
