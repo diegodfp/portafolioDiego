@@ -156,7 +156,7 @@ export const dataPortfolio = [
     {
         id: 2,
         title: "Desarrollo API REST para un foro",
-        image: "/image-2.jpg",
+        image: "/image-2.png",
         urlGithub: "",
         description: "Desarrollo e implementacion de una API REST  desarrollada con java spring boot, la API implementa rutas siguiendo las buenas practicas del modelo REST.",
     },
