@@ -17,9 +17,9 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     const { id, title, image, urlGithub, description } = data;
 
     return (
-        <div key={id} className="relative p-4 border border-teal-200 rounded-xl overflow-hidden bg-white shadow-lg max-w-lg mx-auto">
-            <h3 className="mb-4 text-xl text-darkBg">{title}</h3>
-            <div className="relative w-full h-[250px] group">
+        <div key={id} className="relative p-4 border border-teal-200 rounded-xl overflow-hidden bg-[rgba(65,47,123,0.15)] shadow-lg max-w-lg mx-auto group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-secondary border-2">
+            <h3 className="mb-4 text-xl text-secondary group-hover:text-secondary/80">{title}</h3>
+            <div className="relative w-full h-[250px]">
                 <Image
                     src={image}
                     alt={title}

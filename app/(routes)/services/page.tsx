@@ -62,7 +62,7 @@ const ServicesPage = () => {
                             Mis <span className="font-bold text-secondary"> servicios.</span>
                         </h1>
                         <p className="mb-3 text-xl text-gray-300">
-                            Ofrezco servicios de desarrollo web frontend especializados en la creación de sitios web y aplicaciones atractivas y funcionales. Utilizando las últimas tecnologías, como HTML, CSS y JavaScript, diseño interfaces de usuario intuitivas y responsivas que reflejan la identidad de marca de mis clientes y mejoran su presencia en línea.
+                        Como desarrollador web, combino diseño y funcionalidad para crear soluciones digitales impactantes y seguras. Ofrezco servicios de desarrollo backend utilizando tecnologías avanzadas como Java y Spring Boot, con un enfoque en la creación de aplicaciones robustas y escalables. Me especializo en implementar soluciones innovadoras que cumplen con altos estándares de seguridad, garantizando la confidencialidad, integridad, disponibilidad y autenticidad de la información.
                         </p>
                         <ContactButton /> {/* Usa el componente ContactButton */}
                     </div>

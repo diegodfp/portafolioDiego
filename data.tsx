@@ -1,4 +1,5 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, Github } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, Github, } from "lucide-react";
+
 
 export const socialNetworks = [
     {
@@ -14,12 +15,12 @@ export const socialNetworks = [
     {
         id: 3,
         logo: <Instagram size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.instagram.com/diegofperez08/",
     },
     {
         id: 4,
         logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.youtube.com/@DiegoPerez-ir6by",
     },
 ];
 
@@ -49,12 +50,7 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+
 ];
 
 export const dataAboutPage = [
@@ -224,3 +220,7 @@ export const dataTestimonials = [
         imageUrl: "/profile6.png",
     },
 ];
+
+
+
+
