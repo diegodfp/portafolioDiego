@@ -40,7 +40,7 @@ const Formulario = () => {
     return (
         <div className="bg-darkBg p-8 rounded-lg shadow-lg max-w-lg mx-auto">
             <h2 className="text-3xl font-bold text-center mb-6 text-secondary">Formulario de Contacto</h2>
-            <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+            <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 mb-20" >
                 <div className="flex flex-col">
                     <label className="text-lg font-medium mb-1 text-gray-300">Nombre</label>
                     <input
