@@ -1,51 +1,48 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Github } from "lucide-react"; // Importar el logo de GitHub
 
 interface PortfolioBoxProps {
     data: {
         id: number,
-        title: string
-        image: string
-        urlGithub: string
-        urlDemo: string
+        title: string,
+        image: string,
+        urlGithub: string,
+        description: string
     }
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
-    const { data } = props
-    const { id, title, image, urlDemo, urlGithub } = data
+    const { data } = props;
+    const { id, title, image, urlGithub, description } = data;
 
     return (
-        <div
-            key={id}
-            className="p-4 border border-teal-50 rounded-xl"
-        >
-            <h3 className="mb-4 text-xl">{title}</h3>
-            <Image
-                src={image}
-                alt="Image"
-                width={200} height={200} className="w-full md:w-[200px] rounded-2xl h-auto"
-            />
+        <div key={id} className="relative p-4 border border-teal-200 rounded-xl overflow-hidden bg-white shadow-lg max-w-lg mx-auto">
+            <h3 className="mb-4 text-xl text-darkBg">{title}</h3>
+            <div className="relative w-full h-[250px] group">
+                <Image
+                    src={image}
+                    alt={title}
+                    width={250}
+                    height={250}
+                    className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:opacity-0"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-gradient-cover text-darkBg text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out p-4">
+                    <p className="text-base leading-relaxed break-words">{description}</p>
+                </div>
+            </div>
 
-            <div className="flex gap-5 mt-5">
+            <div className="flex justify-center mt-5">
                 <Link
                     href={urlGithub}
                     target="_blank"
-                    className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80"
+                    className="flex items-center gap-2 p-2 transition duration-150 rounded-lg bg-secondary text-white hover:bg-secondary/80"
                 >
-                    Github
-                </Link>
-
-                <Link
-                    href={urlDemo}
-                    target="_blank"
-                    className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80"
-                >
-                    Live demo
+                    <Github size={20} strokeWidth={1.5} /> Github
                 </Link>
             </div>
         </div>
     );
 }
 
-export default PortfolioBox
+export default PortfolioBox;

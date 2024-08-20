@@ -5,7 +5,9 @@ import AvatarServices from "@/components/avatar-services";
 import CircleImage from "@/components/circle-image";
 import SliderServices from "@/components/slider-services";
 import TransitionPage from "@/components/transition-page";
-import ContainerPage from "@/components/container-page"; // Asegúrate de importar el contenedor
+import ContainerPage from "@/components/container-page";
+import { CoverParticles } from "@/components/cover-particles";
+import ContactButton from "@/components/boton"; // Importa el componente ContactButton
 
 const ServicesPage = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -30,6 +32,7 @@ const ServicesPage = () => {
     return (
         <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
             <TransitionPage />
+            <CoverParticles />
             <CircleImage />
             <AvatarServices />
 
@@ -43,9 +46,7 @@ const ServicesPage = () => {
                             <p className="mb-3 text-xl text-gray-300">
                                 Ofrezco servicios de desarrollo web frontend especializados en la creación de sitios web y aplicaciones atractivas y funcionales. Utilizando las últimas tecnologías, como HTML, CSS y JavaScript, diseño interfaces de usuario intuitivas y responsivas que reflejan la identidad de marca de mis clientes y mejoran su presencia en línea.
                             </p>
-                            <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">
-                                Contacta conmigo
-                            </button>
+                            <ContactButton /> {/* Usa el componente ContactButton */}
                         </div>
 
                         {/* SLIDER */}
@@ -63,9 +64,7 @@ const ServicesPage = () => {
                         <p className="mb-3 text-xl text-gray-300">
                             Ofrezco servicios de desarrollo web frontend especializados en la creación de sitios web y aplicaciones atractivas y funcionales. Utilizando las últimas tecnologías, como HTML, CSS y JavaScript, diseño interfaces de usuario intuitivas y responsivas que reflejan la identidad de marca de mis clientes y mejoran su presencia en línea.
                         </p>
-                        <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">
-                            Contacta conmigo
-                        </button>
+                        <ContactButton /> {/* Usa el componente ContactButton */}
                     </div>
 
                     {/* SLIDER */}

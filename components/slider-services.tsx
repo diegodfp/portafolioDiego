@@ -15,11 +15,11 @@ const SliderServices = () => {
                 },
                 768: {
                     slidesPerView: 2,
-                    spaceBetween: 15
+                    spaceBetween: 20
                 },
                 1024: {
                     slidesPerView: 3,
-                    spaceBetween: 15
+                    spaceBetween: 20
                 }
             }}
             freeMode={true}
@@ -27,16 +27,15 @@ const SliderServices = () => {
                 clickable: true
             }}
             modules={[Pagination]}
-            className="h-[280px] md:h-[340px] w-[270px] md:w-[550px]"
+            className="h-[400px] md:h-[450px] w-[300px] md:w-[600px]"
         >
-
             {serviceData.map((item, index) => (
-                <SwiperSlide key={index} >
-                    <div className="flex px-6 py-8 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-secondary border-2">
-                        <div className="mb-4 text-4xl text-secondary">{item.icon}</div>
+                <SwiperSlide key={index}>
+                    <div className="flex px-6 py-8 h-full md:h-[350px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-secondary border-2">
+                        <div className="mb-4 text-3xl md:text-4xl text-secondary">{item.icon}</div>
                         <div>
-                            <h3 className="mb-4 text-lg">{item.title}</h3>
-                            <p className="text-sm">{item.description}</p>
+                            <h3 className="mb-3 text-sm md:text-lg">{item.title}</h3>
+                            <p className="text-xs md:text-sm">{item.description}</p>
                         </div>
                     </div>
                 </SwiperSlide>

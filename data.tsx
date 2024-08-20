@@ -1,29 +1,24 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, Github } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/diegodfp",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/diego-perez12/",
     },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
+        logo: <Instagram size={30} strokeWidth={1} />,
         src: "#!",
     },
     {
         id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
+        logo: <Youtube size={30} strokeWidth={1} />,
         src: "#!",
     },
 ];
@@ -65,149 +60,123 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Back-end Developer",
+        subtitle: "Campuslands",
+        description: "Bootcamp intensivo para desarrollar el aprendizaje del desarrollo web con enfasis en el backend, ademas de de incluir en su programa de aprendizaje, el estudio y aprendizaje del ingles y habilidades blandas.",
+        date: "Sept. 2024 ",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Ciberseguridad de Google",
+        subtitle: "Coursera",
+        description: "El Certificado de Carrera de Ciberseguridad de Google está compuesto por ocho cursos desarrollados por Google, que abarcan una amplia gama de temas en ciberseguridad. Incluye actividades prácticas y escenarios simulados que replican tareas comunes y desafiantes en el campo de la ciberseguridad, proporcionando una formación integral y aplicada para enfrentar las amenazas y proteger sistemas y datos.",
+        date: "Mar. 2024",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Programa Oracle Next Education Back-end",
+        subtitle: "Alura Latam",
+        description: "Programa especializado en desarrollo back-end con un enfoque en el uso del lenguaje de programación Java y el framework Spring Boot. Este curso proporciona una formación integral en la creación de aplicaciones robustas y escalables, cubriendo desde la arquitectura de aplicaciones hasta la implementación de soluciones eficientes y seguras en el entorno back-end.",
+        date: "jul. 2024 ",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "Ing. sistemas",
+        subtitle: "UIS",
+        description: "He cursado cinco semestres en Ingeniería de Sistemas en la Universidad Industrial de Santander, donde desarrollé una sólida base en desarrollo de software, gestión de proyectos y diversos lenguajes de programación. A pesar de que mis estudios están actualmente en pausa, he adquirido habilidades clave en la creación y gestión de soluciones tecnológicas y en la aplicación de metodologías ágiles y principios de ingeniería de software.",
+        date: "Mar 2022",
     },
 ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
-        text: "Años de experiencia",
+        endCounter: 2,
+        text: "Años de formación en programación",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
+        endCounter: 20,
+        text: "Proyectos personales completados",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 220,
-        text: "Proyectos finalizados",
+        endCounter: 8,
+        text: "Lenguajes de programación utilizados",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
+        endCounter: 3,
+        text: "Certificaciones obtenidas",
         lineRight: false,
         lineRightMobile: false,
     },
 ];
 
+
 export const serviceData = [
     {
         icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        title: "Desarrollo Back-end",
+        description: "Creación y optimización de bases de datos y aplicaciones back-end utilizando Java y Spring Boot. Desarrollo de soluciones escalables y seguras.",
     },
     {
         icon: <Pencil />,
-        title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        title: "Diseño de Interfaces Web",
+        description: "Diseño de interfaces web intuitivas y centradas en el usuario, asegurando una experiencia de usuario fluida y atractiva. Adaptación de interfaces para su integración con el back-end.",
     },
     {
         icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+        title: "Desarrollo de Soluciones Web",
+        description: "Desarrollo completo de aplicaciones web a medida, incluyendo la integración de sistemas y la implementación de funcionalidades avanzadas para cumplir todos los requerimientos",
     },
     {
         icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        title: "Seguridad Web",
+        description: "Implementación de medidas de seguridad para proteger tus aplicaciones y datos contra amenazas cibernéticas. Evaluación de vulnerabilidades y aplicación de buenas prácticas de ciberseguridad.",
     },
     {
         icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        title: "Optimización de Rendimiento",
+        description: "Mejora del rendimiento y la eficiencia de tus aplicaciones web. Implementación de técnicas para optimizar tiempos de carga, manejo de datos y respuesta del servidor.",
     },
 ];
+
 
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
+        title: "Sistema Gestión Aerolinea",
         image: "/image-1.jpg",
         urlGithub: "#!",
-        urlDemo: "#!",
+        description: "Aplicacion grafica de escritorio desarollada en java, para la gestion completa de una aerolinea, se desarrolla usando arquitectura hexagonal + vertical slicing ",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Desarrollo API REST para un foro",
         image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "",
+        description: "Desarrollo e implementacion de una API REST  desarrollada con java spring boot, la API implementa rutas siguiendo las buenas practicas del modelo REST.",
     },
     {
         id: 3,
-        title: "Estrategias Web",
+        title: "Consumo Api Gutendex",
         image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/diegodfp/Libreria_Gutendex-main",
+        description: " Aplicación para gestionar  APIs externas, en este caso Gutendex, implementando  Java y Spring Boot. Incluye persistencia de datos y gestión eficiente de recursos, ofreciendo una solución robusta y escalable.",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
+        title: "Web para pagos de servicios publicos",
         image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/diegodfp/Libreria_Gutendex-main",
+        description: "Plataforma web intuitiva y atractiva para la gestión de pagos de servicios públicos en línea. Utilizando técnicas avanzadas de diseño de interfaces (UI), la aplicación ofrece una experiencia de usuario fluida y sencilla.",
     }
 ];
 
